@@ -39,6 +39,9 @@ public class MapMainActivity extends AppCompatActivity {
                 selectedFragment = new AccountFragment();
                 break;
         }
+        if (selectedFragment == null){
+            selectedFragment = new MapFragment();
+        }
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, selectedFragment).commit();
         return true;

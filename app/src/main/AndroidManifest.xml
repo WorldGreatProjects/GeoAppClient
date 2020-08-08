@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".MapMainActivity"
-            android:label="@string/title_activity_map_main"></activity>
+            android:label="@string/title_activity_map_main" />
         <activity android:name=".IntroActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
