@@ -47,6 +47,9 @@ dependencies {
     implementation "androidx.room:room-runtime:2.2.5"
     annotationProcessor "androidx.room:room-compiler:2.2.5"
 
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:25.3.0'
+
     //Rx java - for multithreading
     implementation "io.reactivex.rxjava3:rxjava:3.0.0"
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'

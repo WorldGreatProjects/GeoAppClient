@@ -50,7 +50,9 @@
                     android:layout_centerVertical="true"
                     android:text="100\nSubscribers"
                     android:textSize="20sp"
-                    android:textAlignment="center"/>
+                    android:textAlignment="center"
+                    android:clickable="true"
+                    android:focusable="true" />
 
                 <TextView
                     android:id="@+id/tv_followers"

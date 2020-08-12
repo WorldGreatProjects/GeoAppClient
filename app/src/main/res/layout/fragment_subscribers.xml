@@ -7,11 +7,10 @@
     tools:context=".SubscribersFragment"
     android:background="#000000">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUBSCRIBERS"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        android:textColor="#FFFFFF" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subs_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"/>
+
 </RelativeLayout>
